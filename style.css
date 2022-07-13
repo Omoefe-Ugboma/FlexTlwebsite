@@ -110,6 +110,7 @@ nav ul li a{
     font-size: 50px;
     line-height: 125%;
     color: rgb(245, 238, 238);
+    margin-bottom: 0;
 }
 
 /* Achievement */
