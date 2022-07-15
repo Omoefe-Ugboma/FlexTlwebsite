@@ -4,11 +4,11 @@
 /node_modules
 /.pnp
 .pnp.js
-/style.css
+
 # testing
 /coverage
 
 # production
 /yarn.lock
-
+# /style.css
  
