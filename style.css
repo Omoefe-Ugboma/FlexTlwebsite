@@ -55,3 +55,156 @@ body{
     padding-left: 80px;
 }
  
+/* Header */
+header{
+    background: linear-gradient(180deg,#6f7dfb 0%, #26308c 100%);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 1134px;
+    top: 36px;
+    z-index: 100;
+}
+
+nav .logo{
+    font-family: "Raleway",sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    color: #e8f7fb;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    list-style: none;
+    margin: 0;
+}
+
+nav ul li a{
+    font-family: "Raleway",sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: #e8f7fb;
+    text-decoration: none;
+}
+
+/* Hero section */
+.hero-section{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 60px;
+}
+
+.hero-section .left h1{
+    font-family: "Raleway",sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 125%;
+    color: #e8f7fb;
+    margin-bottom: 0;
+}
+
+.hero-section .left p{
+    font-family: "Raleway",sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 200%;
+    color: #e8f7fb;
+    margin-bottom: 30px;
+}
+
+.hero-section .left{
+   flex: 1;
+}
+
+.hero-section .right{
+    align-self: flex-end;
+}
+
+.hero-section .right img{
+    height: 520px;
+    vertical-align: middle;
+}
+
+/* Achievement Cards */
+/* .achievement-cards{
+    
+} */
+
+.achievement-card{
+    position: absolute;
+    max-width: 200px;
+}
+
+.achievement-card .content{
+    border-radius: 24px;
+    background: #e8f7fb;
+    padding: 8px 32px;
+    z-index: 10;
+    position: relative;
+}
+
+.achievement-card.students-enrolled{
+    left: 49%;
+    top: 270px;
+}
+
+.achievement-card.overall-rating{
+    left: 45%;
+    top: 520px;
+}
+
+.achievement-card .content div{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.achievement-card h3{
+    font-family: "Raleway",sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    color: var(--dark-blue-color);
+    margin: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.achievement-card p{
+    font-family: "Raleway",sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    color: var(--dark-blue-color);
+    margin-top: -3px;
+    margin-bottom: 5px;
+}
+
+.achievement-card .bg{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(180deg,#6f7dfb 0%, #838dbb 100%);
+    border-radius: 24px;
+    top: 8px;
+    left: 8px;
+    z-index: 1;
+}
+.hero-section .left p{
+    font-family: "Raleway",sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 200%;
+    color: #e8f7fb;
+    margin-bottom: 30px;
+    width: 457px;
+}
+
+ 
