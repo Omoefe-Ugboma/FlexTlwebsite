@@ -344,3 +344,33 @@ nav ul li a{
     padding: 0px 32px;
     margin: 40px 0;
 }
+.courses-section .course-card h3{
+    font-family: "Raleway",sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 150%;
+
+    color: var(--dark-blue-color);
+}
+
+.courses-section .course-card .info{
+    display: flex;
+    gap: 16px;
+    justify-content: space-between;
+    align-items: center;
+}
+.courses-section .course-card .duration{
+    font-family: "Raleway",sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+    white-space: nowrap;
+    color: var(--dark-blue-color);
+    position: relative;
+    padding-left: 20px;
+}
+.courses-section .course-card .duration::before{
+    content: "🎁";
+    position: absolute;
+    top: 2px;
+    left: -6px;
+}
