@@ -343,6 +343,7 @@ nav ul li a{
     border-radius: 24px;
     padding: 0px 32px;
     margin: 40px 0;
+    position: relative;
 }
 .courses-section .course-card h3{
     font-family: "Raleway",sans-serif;
@@ -374,3 +375,4 @@ nav ul li a{
     top: 2px;
     left: -6px;
 }
+
