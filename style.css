@@ -322,6 +322,7 @@ nav ul li a{
  .courses-section{
     background: linear-gradient(180deg,#6f7dfb 0%, #26308c 100%);
     padding: 70px 0;
+    padding-bottom: 120px;
  }
 
  .courses-section h2{
@@ -387,4 +388,47 @@ nav ul li a{
     top: 2px;
     left: -6px;
 }
+.courses-section .wrapper{
+    position: relative;
+}
 
+.courses-section .wrapper .btn{
+    position: absolute;
+    right: 0;
+}
+
+/* App Section */
+.app-section{
+    text-align: center;
+}
+
+.app-section .app-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 24px;
+}
+
+.app-section .app-btn{
+    padding: 20px 30px;
+    background: #070917;
+    color: #e8f7fb;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    min-width: 310px;
+}
+.app-section .app-btn span{
+    font-family: "Raleway",sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    color: #e8f7fb;
+}
+.wrapper .app-section p{
+    font-size: 20px;
+}
+
+footer {
+    background: var(--dark-blue-color);
+}
