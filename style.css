@@ -430,7 +430,7 @@ nav ul li a{
 }
 
 footer {
-    background: var(--dark-blue-color);
+    background: var(--dark-color);
     color: #e8f7fb;
     margin-top: 100px;
     padding: 70px 0;
@@ -457,4 +457,45 @@ footer ul li{
 footer .links-container{
     display: grid;
     grid-template-columns: 2fr 2fr 3fr;
+}
+
+footer .social{
+    margin-left: 20px;
+}
+
+footer .social a{
+    margin-right: 28px;
+}
+
+footer form{
+    margin-left: 20px;
+    margin-top: 16px;
+    position: relative;
+}
+
+footer form input{
+    font-family: "Raleway",sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 200%;
+    border-radius: 8px;
+    padding: 8px 32px;
+    border: none;
+    color: #070917;
+}
+
+footer form .submit-btn{
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: "Raleway",sans-serif;
+    border-radius: 8px;
+    padding: 8px 32px;
+    border: none;
+    background: var(--dark-blue-color);
+    font-weight: normal;
+    font-size: 16px;
+    color: #e8f7fb;
+    cursor: pointer;
 }
