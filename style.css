@@ -68,6 +68,15 @@ nav{
     width: 1134px;
     top: 36px;
     z-index: 100;
+    transition: all 500ms ease;
+}
+
+nav.scrolled{
+    background: var(--dark-color);
+    box-shadow: 0 16 px 14px -8px rgba(0,0,0,0.3);
+    border-radius: 0 0 8px 8px;
+    top: 0;
+    padding: 12px;
 }
 
 nav .logo{
@@ -486,7 +495,7 @@ footer form input{
 
 footer form .submit-btn{
     position: absolute;
-    right: 5px;
+    right: 220px;
     top: 50%;
     transform: translateY(-50%);
     font-family: "Raleway",sans-serif;
@@ -498,4 +507,8 @@ footer form .submit-btn{
     font-size: 16px;
     color: #e8f7fb;
     cursor: pointer;
+}
+
+footer .copyright{
+    margin-top: 36px;
 }
