@@ -713,4 +713,29 @@ footer .copyright {
     nav.mobile-nav {
         display: flex;
     }
+
+    nav.mobile-nav.scrolled {
+        padding: 8px 100px;
+        background: var(--light-blue-color);
+        box-shadow: 0 9px 21px -5px rgba(0, 0, 0, 0.3);
+    }
+
+    .mobile-menu-container {
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        top: 0;
+        left: 0;
+        /* background: var(--dark-color); */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 200;
+    }
+
+    .mobile-menu-container .clode-icon {
+        position: fixed;
+        top: 32px;
+        right: 100px;
+    }
 }
