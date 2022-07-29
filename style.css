@@ -530,6 +530,7 @@ footer .copyright {
     margin-top: 36px;
 }
 
+/* hide mobile menu for desktop display */
 nav.mobile-nav,
 .mobile-menu-container {
     display: none;
