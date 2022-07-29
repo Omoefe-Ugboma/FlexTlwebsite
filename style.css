@@ -726,7 +726,7 @@ footer .copyright {
         width: 100%;
         top: 0;
         left: 0;
-        /* background: var(--dark-color); */
+        background: var(--dark-color);
         display: flex;
         align-items: center;
         justify-content: center;
@@ -737,5 +737,6 @@ footer .copyright {
         position: fixed;
         top: 32px;
         right: 100px;
+
     }
 }
